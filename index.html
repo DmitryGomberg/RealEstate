@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>RealEstate</title>
+    <link rel="stylesheet" href="Steps/css/style.css">
+    <link rel="stylesheet" href="Steps/js/js.js">
+    <link rel="stylesheet" href="Steps/css/media.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <div class="header">
+        <div class="content">
+            <div class="logo">
+                <h1 class="logo_main">Realestate Company</h1>
+                <p class="logo_text">Lorem Ipsum is simply dummy text</p>
+                <img src="Steps/images/logo_img.png" alt="logo" class="logo_img">
+            </div>
+            <div class="header_phone">Call us: (214) 227-7669</div>
+        </div>
+    </div>
+
+    <div class="tabs_outer">
+        <div class="tabs">
+            <div class="tabs_wrap">
+                <div class="tabs_col">
+                    <div class="tabs_top">
+                        <img src="Steps/images/menu_img.png" alt="" class="menu_img" id="menu_img">
+                        <nav class="tabs_items" id="tabs_items">
+                            <a href="#"><div class="tab_h active" data-tab = "0">Home</div></a>
+                            <a href="#"><div class="tab_h" data-tab = "1">Our Story</div></a>
+                            <a href="#"><div class="tab_h" data-tab = "2">Tenant</div></a>
+                            <a href="#"><div class="tab_h" data-tab = "3">Owner</div></a>
+                            <a href="#"><div class="tab_h" data-tab = "4">Contact us</div></a>
+                        </nav>
+                        <a href="#" class="phone_number" onclick="Form()" >Sign in / Sign up</a>
+                    </div>
+                </div>
+                <div class="tabs_body">
+                    <div class="tab_b first active_TAB" >
+                        
+                        
+                        <div class="slider">
+                            
+                            <div class="slider_item">
+                                <img class="slider_img" src="Steps/images/slider_img.png" alt="">
+                                <div class="slider_text">
+                                    <h2 class="slider_item_paragraph">Lorem Ipsum is simply dummy text of</h2>
+                                    <p class="slider_item_text">We work with investors to make managing your investments easy!</p>
+                                </div>
+                            </div>
+                            
+                            <div class="slider_item">
+                                <img class="slider_img" src="Steps/images/slider_img.png" alt="">
+                                <div class="slider_text">
+                                    <h2 class="slider_item_paragraph">Lorem Ipsum is simply dummy text of</h2>
+                                    <p class="slider_item_text">We work with investors to make managing your investments easy!</p>
+                                </div>
+                            </div>
+                            
+                            <div class="slider_item">
+                                <img class="slider_img" src="Steps/images/slider_img.png" alt="">
+                                <div class="slider_text">
+                                    <h2 class="slider_item_paragraph">Lorem Ipsum is simply dummy text of</h2>
+                                    <p class="slider_item_text">We work with investors to make managing your investments easy!</p>
+                                </div>
+                            </div>
+                            
+                            <div class="slider_item">
+                                <img class="slider_img" src="Steps/images/slider_img.png" alt="">
+                                <div class="slider_text">
+                                    <h2 class="slider_item_paragraph">Lorem Ipsum is simply dummy text of</h2>
+                                    <p class="slider_item_text">We work with investors to make managing your investments easy!</p>
+                                </div>
+                            </div>
+                            
+                            <div class="slider_item">
+                                <img class="slider_img" src="Steps/images/slider_img.png" alt="">
+                                <div class="slider_text">
+                                    <h2 class="slider_item_paragraph">Lorem Ipsum is simply dummy text of</h2>
+                                    <p class="slider_item_text">We work with investors to make managing your investments easy!</p>
+                                </div>
+                            </div>                                                         
+                        </div>
+                        
+                        <div class="inner_tabs_col">
+                            <div class="inner_tabs">
+                                <div class="inner_tabs_top">
+                                    <div class="inner_tab_h inner_active" data-inner-tab="0">
+                                        Tenants
+                                    </div>
+                                    <div class="inner_tab_h" data-inner-tab="1">
+                                        Oweners
+                                    </div>
+                                </div>
+                                <div class="inner_tabs_body">
+                                    <div class="inner_tab_b" style="display: block">
+                                        <p class="inner_tab_b_text">
+                                            Address, Suburbs, Postcodes, or Regions
+                                        </p>
+                                        
+                                        <input type="text" placeholder="Example: Wichita Falls, Texas 76301" class="inner_tab_b_input">
+                                        <div class="inner_tab_wrap">
+                                            <input type="checkbox" class="inner_tab_check">
+                                            <p class="inner_tab_text">
+                                                Include surrounding suburbs
+                                            </p>
+                                        </div>
+                                        <div class="inner_sel_wrap">
+                                            <p class="sel_wrap_p">
+                                                Property Type :
+                                            </p>
+                                            <select name="form_select" class="select_inner" >
+                                                <option value="Значение 1">
+                                                    Select one
+                                                </option>
+                                                <option value="Значение 2">
+                                                    Select other
+                                                </option>
+                                                <option value="Значение 3">
+                                                    Select next
+                                                </option>                    
+                                            </select>
+                                        </div>
+                                        
+                                        
+                                        <div class="inner_sel_wrap">
+                                            <p class="sel_wrap_p">
+                                                Bedrooms :
+                                            </p>
+                                            <select name="form_select" class="select_inner" >
+                                                <option value="Значение 1">
+                                                    One
+                                                </option>
+                                                <option value="Значение 2">
+                                                    Two
+                                                </option>
+                                                <option value="Значение 3">
+                                                    Three
+                                                </option>                        
+                                                <option value="Значение 3">
+                                                    Four
+                                                </option>                                                                                  
+                                            </select>
+                                        </div>  
+                                        
+                                        <div class="inner_wrap_b">
+                                            <button class="inner_button">
+                                                Search
+                                            </button>           
+                                        </div>
+                                </div>
+                                <div class="inner_tab_b">
+                                      <h3 class="inner_tab_2_text">
+                                          Here is information about Oweners.
+                                      </h3>
+                                </div>
+                            </div>
+                            
+                        </div>
+
+                        
+                    </div>
+                </div>
+                
+                    <div class="tab_b middle">
+                    
+                           <h1 class="tab_b_H1">Here is the story of this company</h1>    
+                            
+                    </div> 
+                    
+                    <div class="tab_b middle">
+                    
+                           <h1 class="tab_b_H1">Here is iformation about tenants</h1>    
+                            
+                    </div> 
+                    
+                    <div class="tab_b middle">
+                    
+                           <h1 class="tab_b_H1">Here is iformation for oweners</h1>    
+                            
+                    </div> 
+                    
+                    <div class="tab_b conatact_information">
+                    
+                           <h1>Contact information:</h1> 
+                           
+                           <p>Call us: (214) 227-7669</p>
+                              
+                           <p>Write to us: realestate@gmail.com</p> 
+                           
+                           <p class="contact_last">We are always glad to see you!</p>
+                            
+                    </div> 
+                
+                
+                    
+                                                                            
+                 </div>
+             </div>
+         </div>
+    </div>
+
+    <div class="wwd">
+        <div class="wwd_wrap">
+            <div class="wwd_item">
+                <div class="wwd_iten_head">
+                    <img src="Steps/images/home_204.png" alt="">
+                    <h2 class="wwg_title">Buy a home</h2>
+                </div>
+                <p class="wwd_text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
+ printer took a galley of type and scrambled it to make a type specimen book. 
+                </p>
+            </div>
+            
+            <div class="wwd_item">
+                <div class="wwd_iten_head">
+                    <img src="Steps/images/home_204.png" alt="">
+                    <h2 class="wwg_title">Buy a home</h2>
+                </div>
+                <p class="wwd_text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
+                printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
+                </p>
+            </div>
+            
+            <div class="wwd_item">
+                <div class="wwd_iten_head">
+                    <img src="Steps/images/home_204.png" alt="">
+                    <h2 class="wwg_title">Buy a home</h2>
+                </div>
+                <p class="wwd_text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
+                printer took a galley of type and scrambled it to make a type specimen book. 
+                </p>
+            </div>                                    
+        </div>
+    </div>
+
+    <div class="photogallery">
+        <div class="photowrap">
+            <div class="photo_item">
+                <img src="Steps/images/list_img.png" alt="List Image">
+                <div class="photo_inner">
+                    <p class="photo_inner_text">
+                        4605 Bayonne Court Arlington, TX 76016
+                    </p>
+                    <img src="Steps/images/look.png" alt="look">
+                </div>
+            </div>
+            <div class="photo_item">
+                <img src="Steps/images/list_img.png" alt="List Image">
+                <div class="photo_inner">
+                    <p class="photo_inner_text">
+                        4605 Bayonne Court Arlington, TX 76016
+                    </p>
+                    <img src="Steps/images/look.png" alt="look">
+                </div>
+            </div>
+            <div class="photo_item">
+                <img src="Steps/images/list_img.png" alt="List Image">
+                <div class="photo_inner">
+                    <p class="photo_inner_text">
+                        4605 Bayonne Court Arlington, TX 76016
+                    </p>
+                    <img src="Steps/images/look.png" alt="look">
+                </div>
+            </div>    
+            <div class="photo_item">
+                <img src="Steps/images/list_img.png" alt="List Image">
+                <div class="photo_inner">
+                    <p class="photo_inner_text">
+                        4605 Bayonne Court Arlington, TX 76016
+                    </p>
+                    <img src="Steps/images/look.png" alt="look">
+                </div>
+            </div>    
+            <div class="photo_item">
+                <img src="Steps/images/list_img.png" alt="List Image">
+                <div class="photo_inner">
+                    <p class="photo_inner_text">
+                        4605 Bayonne Court Arlington, TX 76016
+                    </p>
+                    <img src="Steps/images/look.png" alt="look">
+                </div>
+            </div>    
+            <div class="photo_item">
+                <img src="Steps/images/list_img.png" alt="List Image">
+                <div class="photo_inner">
+                    <p class="photo_inner_text">
+                        4605 Bayonne Court Arlington, TX 76016
+                    </p>
+                    <img src="Steps/images/look.png" alt="look">
+                </div>
+            </div>    
+            <div class="photo_item">
+                <img src="Steps/images/list_img.png" alt="List Image">
+                <div class="photo_inner">
+                    <p class="photo_inner_text">
+                        4605 Bayonne Court Arlington, TX 76016
+                    </p>
+                    <img src="Steps/images/look.png" alt="look">
+                </div>
+            </div>    
+            <div class="photo_item">
+                <img src="Steps/images/list_img.png" alt="List Image">
+                <div class="photo_inner">
+                    <p class="photo_inner_text">
+                        4605 Bayonne Court Arlington, TX 76016
+                    </p>
+                    <img src="Steps/images/look.png" alt="look">
+                </div>
+            </div>                        
+        </div>
+    </div>
+
+    <div class="bforms">
+        <div class="bfwrap">
+            <div class="bf_main">
+                <div class="bf_form1">
+                    <h3 class="form1_title">Member login</h3>
+                    <div class="form_textarea">
+                        <input type="text" placeholder="User name" class="form1_input">
+                        <input type="text" placeholder="Password" class="form1_input">
+                        <button class="bform_button">Login</button>
+                    </div>
+                </div>
+                <div class="bf_form2">
+                    <h3 class="form2_title">Subscribe to our weekly newsletter</h3>
+                    <div class="form_textarea">
+                        <input type="text" placeholder="email address" class="form2_input">
+                        <button class="bform_button">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+            <div class="signing_wrap">
+                <div class="signing_subwrap">
+                    <div class="signing_for">
+                        <div class="namy">Not a member yet</div>
+                        <div class="signup" onclick="Form()">Signup Now</div>
+                    </div>
+                    <div class="sign_images">
+                        <div class="images_wrap">
+                            <img src="Steps/images/facebook_141.png">
+                            <img src="Steps/images/twitter_149.png">
+                            <img src="Steps/images/google___157.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="footer_wrap">
+            <div class="foot_item1">
+                <h4 class="foot_name">About Us</h4>
+                <ul class="foot_list">
+                    <li class="foot_list_item">About us</li>
+                    <li class="foot_list_item">Why us</li>
+                    <li class="foot_list_item">Customer Stories</li>
+                    <li class="foot_list_item">Press Resources</li>
+                    <li class="foot_list_item">Press Releases</li>
+                    <li class="foot_list_item">Contact us</li>
+                </ul>
+            </div>
+            <div class="foot_item1">
+                <h4 class="foot_name">Proparties</h4>
+                <ul class="foot_list">
+                    <li class="foot_list_item">Rent a home</li>
+                    <li class="foot_list_item">Lease a home</li>
+                    <li class="foot_list_item">Buy a home</li>
+                    <li class="foot_list_item">Sell a home</li>
+                    <li class="foot_list_item">Ask advices</li>
+                </ul>
+            </div>
+            <div class="foot_item2">
+                <h4 class="foot_name">Costamer Testimonials</h4>
+                <p class="foot_text">Lorem Ipsum is simply dummy text of the printing and 
+typesetting industry. Lorem Ipsum has been the industr
+standard dummy text ever since the 1500s, 
+when an unknown printer took a</p>
+                <p class="foot_text_bold">Lorem Ipsum is simply
+Owner, Lorem Ipsum</p>
+            </div>
+            <div class="foot_item3">
+                <div class="foot_logo">Realestate company</div>
+                <p class="css">© cssauthor.com</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="form_to_sign" id="form_to_sign">
+        <div class="formWrapper">
+            <p class="form_text" >Enter Your Email:</p>
+            <input type="text" placeholder="my_email@gmail.com" class="form_input" >
+            <p class="form_text">Enter Your Nick Name:</p>
+            <input type="text" placeholder="MyName" class="form_input" >
+            <div class="form_buttons">
+                <button class="form_button" onclick="Sign()"> Sign In </button>
+                <button id="close_button" class="form_button" onclick="Close()" >Close</button>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="Steps/js/js.js" type="stylesheet" ></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="Steps/js/slick.min.js"></script>
+    <script src="Steps/js/js.js"></script>
+</body>
+</html>
